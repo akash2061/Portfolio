@@ -1,4 +1,4 @@
-import { BallCanvas } from "../canvas";
+
 import { SectionWrapper } from "../../hoc";
 import { technologies } from "../../constants";
 import './tech.css'
@@ -20,13 +20,28 @@ const Tech = () => {
 				{config.sections.skillset.h2}
 			</div>
 
-			<div className="flex flex-row flex-wrap justify-center gap-10">
+			{/* <div className="flex flex-row flex-wrap justify-center gap-10">
 				{technologies.map((technology) => (
 					<div className="h-28 w-28" key={technology.name}>
 						<BallCanvas icon={technology.icon} />
 					</div>
 				))}
+			</div> */}
+
+			<div className="tech-container">
+				<div className="tech-row">
+					{
+						technologies.map((technology,index) => (
+							<div className="tech-item" key={index}>
+								<img src={technology.icon} alt="Skill" />
+								<div className="tech-title">{technology.name}</div>
+							</div>
+						))
+					}
+				</div>
 			</div>
+
+
 		</>
 	);
 };
