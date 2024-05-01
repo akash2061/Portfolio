@@ -27,6 +27,8 @@ import {
   bash_script,
   rust_lang,
   go_lang,
+  typescript,
+  mysql,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -89,6 +91,10 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
+    name: "Typescript",
+    icon: typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -103,6 +109,10 @@ const technologies: TTechnology[] = [
   {
     name: "python",
     icon: python,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "Bash",

@@ -92,7 +92,7 @@
 
 
 
-@media (max-width:540px) {
+@media (max-width:480px) {
 	.accordion {
 		display: flex;
 		flex-direction: column;
@@ -107,13 +107,11 @@
 	}
 
 	.certificate-card {
-		display: flex;
-		flex-direction: column;
+		display: inline-block;
 		align-items: center;
 		justify-content: center;
 		height: max-content;
-		width: 100%;
-		margin-left: 0;
+		width: 90%;
 	}
 
 	.image {
@@ -121,14 +119,16 @@
 		align-items: center;
 		justify-content: center;
 		margin-bottom: 0;
+		padding-right: 1rem;
 		height: 40%;
 		width: 90%;
 	}
 
 	.certificate-title {
 		text-align: center;
+		display: block;
+		align-items: center;
 		margin-top: 0;
-		font-size: 1rem;
 		padding-bottom: 15px;
 	}
 }
@@ -253,6 +253,11 @@
 	.title {
 		font-size: 16px;
 	}
+
+	.certificate-title{
+		font-size: 15px;
+		line-height: 1.5;
+	}
 }
 
 @media (maz-width: 640px) {
@@ -263,14 +268,24 @@
 	.title {
 		font-size: 15px;
 	}
+
+	.certificate-title{
+		font-size: 12px;
+		line-height: 1.4;
+	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	.certificate {
 		font-size: 30px;
 	}
 
 	.title {
 		font-size: 14px;
+	}
+
+	.certificate-title{
+		font-size: 12px;
+		line-height: 1.4;
 	}
 }
