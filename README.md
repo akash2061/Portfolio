@@ -7,7 +7,7 @@
 [![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
 [![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)](https://akashsoni.netlify.app/)
 
-## Visit: [Portfolio](https://akashsoni.netlify.app/) 🚀
+## 🚀 Visit: [Portfolio](https://akashsoni.netlify.app/)
 
 ## 📝 Description
 
@@ -16,7 +16,7 @@ This is my **3D Portfolio** which is a well-designed and fully functional portfo
 
 ## ✨ Technologies Used
 
-<details><summary><b>3D Portfolio</b> is built using the following technologies:</summary>
+<details><summary>This <b>Portfolio</b> is built using the following technologies:</summary>
 
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that
   compiles to plain JavaScript.
@@ -40,3 +40,8 @@ This is my **3D Portfolio** which is a well-designed and fully functional portfo
 </details><br/>
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
+
+
+## 📜 License
+
+This portfolio is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
