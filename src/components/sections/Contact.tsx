@@ -16,7 +16,10 @@ const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
   templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  userId: 'Itd7Uw2cphkaXjp_9',// add your emailjs public key here
 };
+
+emailjs.init('Itd7Uw2cphkaXjp_9');
 
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
@@ -38,8 +41,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
+        'service_uy978cs',
+        'template_8fx3z5i',
         {
           form_name: form.name,
           to_name: config.html.fullName,
