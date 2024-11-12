@@ -22,6 +22,7 @@ import {
   archlinux,
   hash,
   pomodoro,
+  notebook,
   todo_app,
   game,
   kali_linux,
@@ -170,6 +171,27 @@ const projects: TProject[] = [
     ],
     image: pomodoro,
     sourceCodeLink: "https://github.com/akash2061/Pomodoro-Timer-App-Rust",
+  },
+  {
+    name: "NoteBook App",
+    description:
+      "Notebook is a powerful Electron application built with React and TypeScript, designed to streamline your note-taking experience. With its intuitive interface and robust features, Notebook provides a seamless platform for organizing your thoughts, ideas, and tasks.",
+    tags: [
+      {
+        name: "ElectronJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: notebook,
+    sourceCodeLink: "https://github.com/akash2061/NoteBook-app",
   },
   {
     name: "Hash Checker",

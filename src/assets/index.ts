@@ -85,6 +85,7 @@ import todo_app from './todo.png';
 import game from './game.png';
 import hash from './hash.png';
 import pomodoro from './pomodoro.png';
+import notebook from './notebook.png';
 
 
 export {
@@ -173,5 +174,6 @@ export {
     hash,
     game,
     pomodoro,
+    notebook,
 
 };
