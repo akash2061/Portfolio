@@ -36,7 +36,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import ibm2 from "./company/ibm2.png";
 
-import  codechef_1 from './Certificates/CodeChef/CodeChef-SQL.jpg';
+import codechef_1 from './Certificates/CodeChef/CodeChef-SQL.jpg';
 import codechef_2 from './Certificates/CodeChef/CodeChef-C++-Pro.jpg';
 
 import javageek from './Certificates/Geekster/Geekster-Java.jpg';
@@ -84,6 +84,7 @@ import sl_2 from './Certificates/Simplilearn/Simplilearn-SQL.jpg';
 import todo_app from './todo.png';
 import game from './game.png';
 import hash from './hash.png';
+import pomodoro from './pomodoro.png';
 
 
 export {
@@ -171,5 +172,6 @@ export {
     todo_app,
     hash,
     game,
+    pomodoro,
 
 };

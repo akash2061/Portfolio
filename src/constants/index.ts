@@ -21,6 +21,7 @@ import {
   python,
   archlinux,
   hash,
+  pomodoro,
   todo_app,
   game,
   kali_linux,
@@ -149,6 +150,27 @@ const experiences: TExperience[] = [
 
 
 const projects: TProject[] = [
+  {
+    name: "Pomodoro-Timer Desktop App",
+    description:
+      "Pomodoro-Timer is a desktop application built in Rust & Tauri that helps you manage your time effectively. It uses the Pomodoro Technique, a time management method that breaks work into intervals, traditionally 25 minutes in length, separated by short breaks.",
+    tags: [
+      {
+        name: "Rust",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tauri v2",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pomodoro,
+    sourceCodeLink: "https://github.com/akash2061/Pomodoro-Timer-App-Rust",
+  },
   {
     name: "Hash Checker",
     description:
