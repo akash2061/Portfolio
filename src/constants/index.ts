@@ -237,7 +237,7 @@ const projects: TProject[] = [
       },
     ],
     image: todo_app,
-    sourceCodeLink: "https://github.com/akash2061/RUST-CLI-ToDo-List",
+    sourceCodeLink: "https://github.com/akash2061/Rusty-Journal",
   },
   {
     name: "Command-Line Guessing Game",
