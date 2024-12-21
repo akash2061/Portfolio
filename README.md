@@ -6,6 +6,7 @@
 [![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/akash2061/Portfolio/blob/main/LICENSE)
 [![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
 [![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)](https://akashsoni.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82115093-284e-4d40-a2da-0fa0c87af19f/deploy-status)](https://app.netlify.com/sites/akashsoni/deploys)
 
 ## 🚀 Visit: [Portfolio](https://akashsoni.netlify.app/)
 
