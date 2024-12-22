@@ -31,6 +31,8 @@ import go_lang from './tech/Go_lang.png';
 import bash_script from './tech/bash.png';
 import archlinux from './tech/archlinux.png';
 import mysql from './tech/Mysql.png';
+import tauri from './tech/tauri.png';
+import java from './tech/java.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -124,6 +126,8 @@ export {
     bash_script,
     archlinux,
     mysql,
+    tauri,
+    java,
 
     codechef_1,
     codechef_2,

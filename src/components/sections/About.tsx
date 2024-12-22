@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import GitHubCalendar from "react-github-calendar";
 
 import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";
@@ -54,6 +55,26 @@ const About = () => {
 			>
 				{config.sections.about.content}
 			</motion.p>
+
+			<motion.div
+				variants={fadeIn("down", "spring", 1, 1)}
+				className="text-secondary mt-6 max-w-3xl text-[17px] leading-[30px]"
+			>
+				<h2 className="font-black text-white lg:text-[60px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px]">GitHub Activity.</h2>
+			</motion.div>
+
+			<motion.div
+				variants={fadeIn("right", "spring", 1, 1)}
+				className="mt-14 flex flex-col"
+			>
+				<GitHubCalendar
+					username="akash2061"
+					theme={{
+						light: ['#151a22', '#004929', '#007631', '#00b53e', '#00e54f'],
+						dark: ['#151a22', '#004929', '#007631', '#00b53e', '#00e54f'],
+					}}
+				/>
+			</motion.div>
 
 			<div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
 				{services.map((service, index) => (

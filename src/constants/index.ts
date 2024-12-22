@@ -31,6 +31,8 @@ import {
   go_lang,
   typescript,
   mysql,
+  tauri,
+  java,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -81,12 +83,16 @@ const technologies: TTechnology[] = [
     icon: cpp,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Rust",
+    icon: rust_lang,
+  },
+  {
+    name: "Tauri",
+    icon: tauri,
   },
   {
     name: "JavaScript",
@@ -99,10 +105,6 @@ const technologies: TTechnology[] = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Rust",
-    icon: rust_lang,
   },
   {
     name: "GoLang",
@@ -121,16 +123,24 @@ const technologies: TTechnology[] = [
     icon: bash_script,
   },
   {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
     name: "Kali",
     icon: kali_linux,
   },
   {
     name: "archlinux",
     icon: archlinux,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
