@@ -8,6 +8,8 @@ import linkedin from './linkedin.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
 import herobg from './herobg.png';
+import download from './download.png';
+import Resume from './Resume/Resume.pdf';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -128,6 +130,9 @@ export {
     mysql,
     tauri,
     java,
+
+    download,
+    Resume,
 
     codechef_1,
     codechef_2,
